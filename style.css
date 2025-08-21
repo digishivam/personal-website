@@ -50,3 +50,7 @@ section {
 #projects .card:hover {
   transform: scale(1.03);
 }
+
+#profile img {
+  border: 4px solid #0d6efd; /* Optional colored border matching theme */
+}
