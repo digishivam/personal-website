@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shivam Shukla - Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Shivam Shukla</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
     <div class="container">
-      <a class="navbar-brand" href="#">Shivam Shukla</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
+      <a class="navbar-brand fw-bold" href="#">Digital Space</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse text-end" id="navbarNav">
         <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -35,174 +27,102 @@
     </div>
   </nav>
 
+  <!-- Hero Section -->
+  <header id="home" class="hero-section d-flex align-items-center justify-content-center text-center">
+    <div>
+      <img src="me1.jpg" alt="Profile Image" class="profile-pic mb-3"/>
+      <h1 class="display-4 fw-bold">Hey, I'm <span class="gradient-text">Shivam Shukla</span></h1>
+      <p class="lead mb-4">Designer · Web Developer</p>
+      <a href="#projects" class="btn btn-lg btn-gradient shadow">View My Work</a>
+    </div>
+  </header>
+
   <!-- Profile Section -->
-  <section id="profile" class="py-5">
-  <div class="container">
-    <h2 class="mb-4">PROFILE</h2>
-    <div class="row align-items-center">
-      <div class="col-md-4 text-center">
-        <img 
-          src="me1.jpg" 
-          alt="Profile Picture" 
-          class="img-fluid rounded-circle shadow" 
-          style="max-width: 200px;"
-        />
-      </div>
-      <div class="col-md-8">
-        <p>
-          I am a professional student and passionate creator with a strong foundation in graphic design and web development.
-          I combine creativity with technical precision to build meaningful, user-centered digital experiences that leave a lasting impact.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  <!-- About Section -->
-  <section id="about" class="py-5 bg-light">
+  <section id="profile" class="section-padding bg-white">
     <div class="container">
-      <h1 class="display-4 mb-4">Welcome to my digital space!</h1>
-      <p class="lead">
-        I am a professional student and a passionate creator, exploring the intersection of design, technology, and innovation.
-      </p>
-      <p>
-        With a strong foundation in graphic design and web development, I craft visually compelling designs and build seamless, functional digital experiences.
-        My work reflects a balance of creativity and technical precision, blending aesthetic appeal with problem-solving logic.
-      </p>
-      <p>
-        This website is not just a portfolio—it’s a reflection of my journey as a lifelong learner, designer, and developer. Here you’ll find my projects, design experiments, and development work that showcase my evolving skills and vision.
-        I believe in creating meaningful, user-centered designs and innovative solutions that leave a lasting impact.
-      </p>
-      <blockquote class="blockquote">
-        Whether you’re here to collaborate, explore my work, or share ideas, I invite you to connect with me and be part of this creative journey.
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- Experience Section -->
-  <section id="experience" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="mb-4">EXPERIENCE</h2>
-
-      <div class="mb-4">
-        <h5>Internship Training - Web Developement</h5>
-        <p class="mb-1"><em>Barrownz Group | July 2025 - September 2025</em></p>
-        <ul>
-          <li>Developed responsive web designs using HTML, CSS, and JavaScript.</li>
-          <li>Collaborated with the design team to implement UI improvements.</li>
-        </ul>
-      </div>
-
-      <div class="mb-4">
-        <h5>Affiliate Marketing Intern</h5>
-        <p class="mb-1"><em>Bizgurukul | July 2022 - May 2024</em></p>
-        <ul>
-          <li>Created visual content for affiliate referral programs.</li>
-          <li>Assisted in brand product marketing.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section id="education" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">EDUCATION</h2>
-
-      <div class="mb-4">
-        <h5>Bachelor of Computer Applications in Computer Science</h5>
-        <p><em>City Group Of Colleges (Affiliated to Lucknow University) | 2024 - Present</em></p>
-        <p>Focus: Software Engineering</p>
-      </div>
-
-      <div>
-        <h5>Intermediate School</h5>
-        <p><em>Anandi Devi S.V.M Inter College | 2022 - 2024</em></p>
-        <p>Focus: Science and Mathematics</p>
+      <h2 class="mb-4 gradient-text">Profile</h2>
+      <div class="row align-items-center g-4">
+        <div class="col-md-4 text-center">
+          <img src="me1.jpg" alt="Profile" class="img-fluid rounded-circle shadow-lg profile-big"/>
+        </div>
+        <div class="col-md-8">
+          <p class="fs-5">
+            I am a professional student and passionate creator exploring the intersection of <strong>design</strong>, <strong>technology</strong>, and <strong>innovation</strong>. My work balances creativity and precision, combining visual aesthetics with logical problem-solving.
+          </p>
+          <div class="d-flex gap-2 mt-3">
+            <a href="#contact" class="btn btn-gradient">Connect</a>
+            <a href="#skills" class="btn btn-outline-gradient">Skills</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="py-5 bg-light">
+  <section id="skills" class="section-padding gradient-bg text-white">
     <div class="container">
-      <h2 class="mb-4">SKILLS</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h6>Design</h6>
-          <ul>
-            <li>Adobe Photoshop</li>
-            <li>Canva</li>
-            <li>Web Design</li>
-          </ul>
+      <h2 class="mb-4">Skills</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h5>Design</h5>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:90%">Adobe Photoshop</div></div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:80%">Canva</div></div>
         </div>
-        <div class="col-md-4">
-          <h6>Development</h6>
-          <ul>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>Bootstrap</li>
-            <li>Python Basics , Java Basics</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h6>Other</h6>
-          <ul>
-            <li>Git & GitHub</li>
-            <li>Problem Solving</li>
-            <li>Mathematics</li>
-          </ul>
+        <div class="col-md-6">
+          <h5>Development</h5>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:95%">HTML, CSS, JS</div></div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:85%">Bootstrap</div></div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:80%">Python, Django, Flask</div></div>
+
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Certificates Section -->
-  <section id="certificates" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">CERTIFICATES</h2>
-      <ul>
-        <li>Web Development - Barrownz Learning Academy (2025)</li>
-        <li>Data Analytics Job Simulation - Deloitte Australia (2025)</li>
-        <li>Data Analysis Using Excel - upGrad (2025)</li>
-      </ul>
-    </div>
-  </section>
-
   <!-- Projects Section -->
-  <section id="projects" class="py-5">
+  <section id="projects" class="section-padding">
     <div class="container">
-      <h2 class="mb-4">MY PROJECTS</h2>
-      <div class="row" id="project-list">
-        <!-- Projects will be inserted here by JS -->
+      <h2 class="mb-4 gradient-text">Selected Projects</h2>
+      <div class="row g-4" id="project-list">
+        <!-- Projects rendered via JS -->
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-5 bg-light">
+  <section id="contact" class="section-padding bg-light">
     <div class="container">
-      <h2 class="mb-4">CONTACT</h2>
-      <p>
-        Email:
-        <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=your.email@gmail.com&su=Hello%20from%20your%20website&body=Hi%20there%2C%0A%0AI%20would%20like%20to%20connect%20with%20you."
-          target="_blank"
-          rel="noopener noreferrer"
-          >digitalcreatorshivam@gmail.com</a
-        >
-      </p>
-      <p>
-        LinkedIn:
-        <a href="https://linkedin.com/in/shivamsshukla" target="_blank" rel="noopener noreferrer"
-          >My Profile</a
-        >
-      </p>
+      <h2 class="mb-4 gradient-text">Contact</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="contact-form">
+            <input type="text" class="form-control mb-2" placeholder="Your Name" required/>
+            <input type="email" class="form-control mb-2" placeholder="Your Email" required/>
+            <textarea class="form-control mb-2" placeholder="Message" rows="4" required></textarea>
+            <button type="submit" class="btn btn-gradient w-100">Send Message</button>
+          </form>
+          <div id="form-msg" class="mt-2"></div>
+        </div>
+        <div class="col-md-6 pt-3">
+          <p class="fs-5">Or connect with me directly:</p>
+          <p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=digitalcreatorshivam@gmail.com" target="_blank" class="btn btn-outline-gradient btn-sm me-2">
+              Gmail
+            </a>
+            <a href="https://linkedin.com/in/shivamsshukla" target="_blank" class="btn btn-outline-gradient btn-sm">
+              LinkedIn
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="text-center bg-dark text-light py-3">&copy; 2025 Shivam Shukla. All rights reserved.</footer>
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Shivam Shukla.
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
