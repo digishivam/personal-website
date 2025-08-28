@@ -79,3 +79,19 @@
   transform: translateY(-7px) scale(1.04);
   box-shadow: 0 8px 28px rgba(56,249,215,0.16);
 }
+
+.footer-section {
+  background: linear-gradient(90deg,#667eea 0%, #2575fc 80%);
+  color: #fff;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  box-shadow: 0 -6px 24px rgba(38,52,148,0.17);
+  margin-top: 60px;
+}
+.footer-section .footer-icon {
+  transition: color 0.2s, transform 0.2s;
+}
+.footer-section .footer-icon:hover {
+  color: #43e97b;
+  transform: scale(1.2);
+}
